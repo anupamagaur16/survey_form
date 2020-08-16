@@ -1,0 +1,105 @@
+body{
+  height: 100%;
+  text-align: center;
+  font-family: sans-serif;
+  background-image: url("corona_img.jpg" );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#title {
+  font-size: 45px;
+  color: ;
+}
+
+#description {
+  font-size: 20px;
+}
+
+#body {
+  width: 600px;
+  padding:30px;
+  margin:auto;
+  border-radius:10px;
+  text-align:left;
+  background-color:rgba(0,0,0,0.6);
+  font-size:20px;
+  color:white;
+}
+
+#name{
+  width:545px;
+  padding:15px;
+  border-radius:10px;
+}
+
+#email{
+  width:545px;
+  padding:15px;
+  border-radius:10px;
+}
+
+#country {
+  width:545px;
+  padding:15px;
+  border-radius:10px;
+}
+
+.form-control {
+  width:545px;
+  padding:15px;
+  border-radius:10px;
+}
+
+.emergency-phone {
+  width:267px;
+  padding:15px;
+  border-radius:10px;
+}
+
+#comments{
+  width:545px;
+  padding:10px;
+  border-radius:10px;
+  border:none;
+}
+
+#submit{
+  width:545px;
+  padding:20px;
+  font-size:20px;
+  border-radius:10px;
+  border:none;
+  margin-top:3%;
+  color:white;
+  background-color:green;
+  cursor: pointer;
+}
+
+#submit:hover {
+  transition: 0.1s;
+  color: black;
+}
+
+.container1 {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container1 {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container1 {
+    max-width: 720px;
+  }
+}

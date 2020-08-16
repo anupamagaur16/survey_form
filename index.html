@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Survey Form</title>
+  </head>
+
+
+  <body>
+    <h1 id="title" class="text-center">Coronavirus Self-Assessment Form</h1>
+        
+    <p id="description" class="description text-center">
+      <strong>Please give correct answers</strong><br>Accurate answer help us - help you better. Medical and support staff are valuable and very limited. Be a responsible citizen.
+    </p>
+
+    <div id="body">
+
+      <form id="survey-form" class="container1">
+
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your full name"
+            required/>
+        </div>
+        <br/>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          
+          <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="example@example.com"
+              required/>
+        </div>
+        <br/>
+        <div class="form-group">
+          <label id="country-label" for="country">Home Country</label>
+         
+          <input 
+            type="text" 
+            name="country" 
+            id="country" 
+            class="form-control" 
+            placeholder="eg: India" required/>
+        </div>
+        <br/>
+        <div class="form-group">
+          <label id="location-label" for="location">Country/Location when filling out this form</label>
+          
+          <input
+            type="text"
+            name="location"
+            id="location"
+            class="form-control"
+            required/>
+        </div>
+        <br/>
+        <div>
+          <label id="address-label" for="address">Home Address</label>
+          
+          <input
+            type="text"
+            name="address"
+            class="form-control"
+            placeholder="Street Address"
+            required/>
+          
+          <input
+            type="text"
+            name="address"
+            class="form-control"
+            placeholder="Street Address Line 2"/>
+          
+          <input
+            type="text"
+            name="address"
+            class="form-control"
+            placeholder="City"
+            required/>
+          <input
+            type="text"
+            name="address"
+            class="form-control"
+            placeholder="State/Province"
+            required/>
+          
+          <input
+            type="number"
+            name="address"
+            class="form-control"
+            placeholder="Postal / Zip Code"
+            required/>
+        </div>
+        <br/>
+        <div class="form-group">
+          <p>Have you been to one of the COVID-19 affected countries in the last 14 days?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"/>Yes
+          </label>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"/>No
+          </label>
+        </div>
+        <br/>
+        <div class="form-group">
+          <p>Have you been in close contact with a confirmed case of coronavirus?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"/>Yes
+          </label>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"/>No
+          </label>
+        </div>
+        <br/>
+        <div class="form-group">
+          <p>Please specify details of the symptoms</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            rows="6"
+            placeholder="Enter your symptoms here (if any)...">
+          </textarea>
+        </div>
+        <br/>
+        <div class="form-group">
+          <label id="emergency-label" for="name">Emergency Contact Name</label>
+         
+          <input
+            type="text"
+            name="emergency"
+            id="emergency"
+            class="form-control"
+            placeholder="Enter your full name"
+            required/>
+        </div>
+        <br/>
+        <div class="form-group">
+          <label id="phone-label" for="name">Emergency Contact Phone</label>
+          <br/>
+          <input
+            type="number"
+            name="phone"
+            class="emergency-phone"
+            placeholder="Area Code"
+            required/>
+          <input
+            type="number"
+            name="phone"
+            class="emergency-phone"
+            placeholder="Phone Number"
+            required/>
+        </div>
+        <br/>
+        <div class="form-group">
+          <p>By submitting I hereby confirm that the information I have given above is true, and that I will comply with the terms and conditions outlined above. </p>
+          <label>
+            <input
+            name="prefer"
+            value="term"
+            type="checkbox"
+            class="input-checkbox"
+          />I agree to terms & conditions.*</label
+        >
+        </div>
+        <br/>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">Submit</button>
+        </div>
+
+      </form>
+
+    </div>
+    
+  </body>
+
+</html>
